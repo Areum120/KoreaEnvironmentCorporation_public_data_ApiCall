@@ -100,7 +100,6 @@ split_4['출고잔여대수_우선비대상'] = split_4['출고잔여대수_우�
 now = datetime.datetime.now()  # 지금시간
 nowToday = now.strftime('%Y%m%d')  # 일자
 # print(nowToday)
-
 # print(type(split_1))
 
 
@@ -124,5 +123,6 @@ print(result)
 
 
 # 엑셀 저장
-result.to_excel(f'{nowToday}_ev_purchase_subsidy_current_status.xlsx')
+folder = './crawling_data'
+result.to_excel(f'{folder}/{nowToday}_ev_purchase_subsidy_current_status.xlsx')
 print('저장완료')
