@@ -1,3 +1,3 @@
-# evsa_dashboard
+# 한국환경공단 공공 데이터 API call
 
-전기차 보조금 신청 현황 대시보드 개발 project입니다.
+이후 update 된 data가 없어 활용성 x
